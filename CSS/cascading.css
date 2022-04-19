@@ -1,0 +1,26 @@
+/*1)element type selector*/
+h1{
+    color: blue;
+}
+
+/*2) grouping selector*/
+h1,h2,h3{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(178, 108, 108);
+}
+
+/*3)class selector*/
+.class{
+    
+    font-size: 25px;
+    color: blue;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/*4)Id selector*/
+#manish{
+    color: aqua;/*   when class & id selector 1st priority is id selector*/
+    font-size: 50px;
+}

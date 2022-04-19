@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Form1
+        </title>
+    </head>
+    <body>
+        <img src="wallpaperflare.com_wallpaper (1).jpg" alt="Image can't display" height="500px" width="500px">
+        <form action="">
+            <div>
+                <label for=""> Enter the name</label>
+                <input type="text" name="firstName"  required placeholder="Manish is the founder of gOOgle" maxlength="30">
+            </div>
+
+            <div>
+                <label for="">Enter the age</label>
+                <input type="number" name="age" required placeholder="Shrishail is the Co-founder" min="16" max="99" maxlength="2" >
+            </div>
+
+            <div>
+                <label for="">Select the Gender</label>
+                <input type="radio" name="gender" checked >Male
+                <input type="radio" name="gender">Female
+                <input type="radio" name="gender">other0
+            </div>
+            <div>
+
+                <div>
+                    <label for="">Date of Birth</label>
+                    <input type="date" name="dob" required>
+                </div>
+                <div>
+                <label for="">Enter the address</label>
+                </div>
+                <textarea name="" id="" cols="5" rows="5" required></textarea>
+            </div>
+            <div>
+                <label for="">Select the courses</label>
+                <select name="courses" id="">
+                    <option value="null" >Select the following courses</option>
+                    <option value="html">HTML</option>
+                    <option value="css">Css</option>
+                    <option value="JAVASCRIPT">Javascript</option>
+                    <option value="bootstrap" selected>BootStrap</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <div>
+                <button type="reset">Reset</button>
+            </div>
+            <div>
+                <input type="file">
+            </div>
+        </form>
+    </body>
+</html>
